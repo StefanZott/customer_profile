@@ -1,0 +1,21 @@
+﻿<Window x:Class="CustomerFile.AdvertisingWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CustomerFile"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"
+        Loaded="windowLoaded"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        WindowStartupLocation="CenterScreen">
+    <Window.Background>
+        <SolidColorBrush Opacity="0.5"/>
+    </Window.Background>
+
+    <Grid>
+        <!--  -->
+        <Image  HorizontalAlignment="Left" Height="79" Margin="206,170,0,0" VerticalAlignment="Top" Width="392" Source="../SRC/Image/zott-itLogo.png" />
+    </Grid>
+</Window>
